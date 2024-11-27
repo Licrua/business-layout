@@ -1,0 +1,54 @@
+/* Общий стиль страницы */
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #f0f0f0;
+	font-family: Arial, sans-serif;
+  }
+  
+  /* Основной контейнер для часов */
+  .clock {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border: 4px solid black;
+	border-radius: 50%;
+	background: white;
+  }
+  
+  /* Общий стиль стрелок */
+  .hand {
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	width: 2px;
+	transform-origin: bottom;
+	transform: rotate(0deg);
+  }
+  
+  /* Стиль часовой стрелки */
+  .hour {
+	height: 50px;
+	background: black;
+  }
+  
+  /* Стиль минутной стрелки */
+  .minute {
+	height: 70px;
+	background: gray;
+  }
+  
+  /* Стиль секундной стрелки */
+  .second {
+	height: 80px;
+	background: red;
+  }
+  
+  /* Кнопки управления */
+  button {
+	margin
+  
